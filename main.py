@@ -276,7 +276,7 @@ def game():
         if config.show_fps_enabled:
             draw_text(
                 f"FPS: {int(clock.get_fps())}",
-                font,ыOW,
+                font,YELLOW,
                 config.WIDTH - 150,
                 20
             )
