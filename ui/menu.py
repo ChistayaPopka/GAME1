@@ -310,7 +310,7 @@ def menu():
         MenuItem("Выход", on_activate=lambda: "quit"),
     ]
 
-    result = run_menu("Game demo", items, escape_value="quit")
+    result = run_menu("Flatline arena", items, escape_value="quit")
 
     if result == "quit":
         pygame.quit()
